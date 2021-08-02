@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src={logo} alt="react logo" />
         </a>
         <button
@@ -23,36 +23,50 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              {/* <a className="nav-link" aria-current="page" href="#">
-                Home
-              </a> */}
-              <NavLink to="/" exact>
+              <NavLink
+                to="/"
+                exact
+                className="nav-link"
+                activeClassName="text-white"
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">
-                About
-              </a> */}
-              <NavLink to="/about">About Me!</NavLink>
+              <NavLink
+                to="/about"
+                className="nav-link"
+                activeClassName="text-white"
+              >
+                About Me!
+              </NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">
+              <NavLink
+                to="/project"
+                className="nav-link"
+                activeClassName="text-white"
+              >
                 Project
-              </a> */}
-              <NavLink to="/project">Project</NavLink>
+              </NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">
+              <NavLink
+                to="/resume"
+                className="nav-link"
+                activeClassName="text-white"
+              >
                 Resume
-              </a> */}
-              <NavLink to="/resume">Resume</NavLink>
+              </NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">
-                Contacts
-              </a> */}
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink
+                to="/contact"
+                className="nav-link"
+                activeClassName="text-white"
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
