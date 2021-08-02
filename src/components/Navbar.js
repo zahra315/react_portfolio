@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../logo.png";
 
 const Navbar = () => {
@@ -22,14 +23,36 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              {/* <a className="nav-link" aria-current="page" href="#">
                 Home
-              </a>
+              </a> */}
+              <NavLink to="/" exact>
+                Home
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              {/* <a className="nav-link" href="#">
+                About
+              </a> */}
+              <NavLink to="/about">About Me!</NavLink>
+            </li>
+            <li className="nav-item">
+              {/* <a className="nav-link" href="#">
+                Project
+              </a> */}
+              <NavLink to="/project">Project</NavLink>
+            </li>
+            <li className="nav-item">
+              {/* <a className="nav-link" href="#">
+                Resume
+              </a> */}
+              <NavLink to="/resume">Resume</NavLink>
+            </li>
+            <li className="nav-item">
+              {/* <a className="nav-link" href="#">
+                Contacts
+              </a> */}
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
