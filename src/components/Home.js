@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <main>
+    <main className="header-wraper">
       <section className="flex mx-auto">
         <div className="flex home">
           <div className="blockquote text-center">
