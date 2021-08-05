@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.text {
+  font-size: 16pt;
+  line-height: 20pt;
+  margin: 0 0 20px 0;
+  pointer-events: none;
+  text-align: center;
+}
+p {
+  color: #fff;
+  font-style: bold;
+  padding-top: 20%;
+}
+
+.highlight {
+  color: #fce51b;
+  font-weight: bolder;
+}
+
+.header-wraper {
+  position: relative;
+  background: url(./assets/image/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.selfy {
+  border-radius: 25px;
+  padding-top: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.resume {
+  color: #fce51b;
 }

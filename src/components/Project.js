@@ -27,7 +27,6 @@ const ProjectSectionStyle = styled.div`
     color: #fff;
     height: 50px;
     width: 80px;
-    background: #6c757d;
     z-index: 10;
     right: 60px;
     left: auto;
@@ -94,7 +93,7 @@ const Project = () => {
                     <ProjectItem
                       title={project.name}
                       img={project.img}
-                      description={project.description}
+                      description={project.desc}
                     />
                   </SwiperSlide>
                 );

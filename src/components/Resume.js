@@ -13,7 +13,7 @@ const Resume = () => {
             rel="noreferrer"
             download="Resume"
             target="_blank"
-            className="resume "
+            className="resume"
           >
             Resume
           </a>
