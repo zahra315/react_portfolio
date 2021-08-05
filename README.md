@@ -25,6 +25,7 @@ In the project directory, you can run:
 ## Usage:
 
 Visit the website and use the navigation links to see the different sections of the app.
+https://zahra315.github.io/react_portfolio/
 ![](src/assets/image/screen.png)
 
 ## Contact:
