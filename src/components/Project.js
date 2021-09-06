@@ -94,6 +94,7 @@ const Project = () => {
                       title={project.name}
                       img={project.img}
                       description={project.desc}
+                      link={project.link}
                     />
                   </SwiperSlide>
                 );

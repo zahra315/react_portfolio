@@ -34,6 +34,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 to="/about"
+                exact
                 className="nav-link"
                 activeClassName="text-white"
               >
@@ -43,6 +44,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 to="/project"
+                exact
                 className="nav-link"
                 activeClassName="text-white"
               >
@@ -52,6 +54,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 to="/resume"
+                exact
                 className="nav-link"
                 activeClassName="text-white"
               >
@@ -61,6 +64,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 to="/contact"
+                exact
                 className="nav-link"
                 activeClassName="text-white"
               >

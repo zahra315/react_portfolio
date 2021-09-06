@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/data/Zahra Seyedi RESUME.pdf";
+import resume from "../assets/data/Zahra Seyedi Resume.pdf";
 
 const Resume = () => {
   return (
