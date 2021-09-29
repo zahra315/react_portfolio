@@ -14,10 +14,11 @@ const About = () => {
                 <br />
                 that <span className="resume display-1">make a difference</span>
                 .
-                <br />I am a front-end developer who enjoys turning complex
-                problems into simple, beautiful and intuitive designs. When I'm
-                not pushing pixels, you'll find me cooking, painting, or working
-                out.
+                <br />A full-stack software engineer maintained, developed, and
+                launched multiple projects from scratch, developing its back-end
+                and front-end codebases. My current toolset includes JavaScript,
+                JQuery, Reactjs, Redux, and various frameworks, libraries, and
+                technologies related to them.
               </p>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import logo from "../assets/image/logo.png";
+import resume from "../assets/data/Zahra Seyedi RESUME.pdf";
 
 const Navbar = () => {
   return (
@@ -52,14 +53,15 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                to="/resume"
-                exact
+              <a
                 className="nav-link"
                 activeClassName="text-white"
+                href={resume}
+                rel="noreferrer"
+                download="Resume"
               >
                 Resume
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
               <NavLink

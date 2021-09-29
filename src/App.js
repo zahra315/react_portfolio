@@ -6,7 +6,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
-import Resume from "./components/Resume";
+
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
         <Route component={About} path="/about" exact />
         <Route component={Contact} path="/contact" exact />
         <Route component={Project} path="/project" exact />
-        <Route component={Resume} path="/resume" exact />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

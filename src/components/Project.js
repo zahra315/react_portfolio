@@ -9,7 +9,7 @@ import "swiper/swiper-bundle.css";
 SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
-  padding: 10rem 0;
+  padding: 5rem 0;
   background-color: #212529;
   height: 100vh;
   .projects__allItems {
@@ -18,7 +18,7 @@ const ProjectSectionStyle = styled.div`
     margin-top: 5rem;
   }
   .swiper-container {
-    padding-top: 4rem;
+    padding-top: 2rem;
     max-width: 100%;
   }
   .swiper-button-prev,
@@ -26,7 +26,7 @@ const ProjectSectionStyle = styled.div`
     position: absolute;
     color: #fff;
     height: 50px;
-    width: 80px;
+    width: 50px;
     z-index: 10;
     right: 60px;
     left: auto;
@@ -40,7 +40,7 @@ const ProjectSectionStyle = styled.div`
   }
   .swiper-button-prev::after,
   .swiper-button-next::after {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   @media only screen and (max-width: 768px) {
     .projects__allItems {
